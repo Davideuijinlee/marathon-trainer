@@ -1,12 +1,12 @@
 import React from 'react';
-import Calculator from './components/calculator/index';
+import 'normalize.css';
+import Toolkit from './components/toolkit/index'
 import Spreadsheet from './components/spreadsheet/index';
-
 
 function App() {
   return (
     <>
-    <Calculator />
+    <Toolkit />
     <Spreadsheet />
     </>
   );
